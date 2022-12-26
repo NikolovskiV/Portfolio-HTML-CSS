@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Web</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="brand"><a href="home.html" id="logo">Portfolio</a></div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skils.html">Skills</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <ul class="mobile-menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skils.html">Skills</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="about">
+        <h2>My skills</h2>
+        <h3>- what I know -</h3>
+      </div>
+
+      <div class="container container__skils" id="skills__c">
+        <div class="child__skils">
+          <div class="left__skills">
+            <!-- <h1>My Skills</h1> -->
+
+            <p>HTML</p>
+            <div class="container-skils">
+              <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container-skils">
+              <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container-skils">
+              <div class="skills js">65%</div>
+            </div>
+
+            <p>PHP</p>
+            <div class="container-skils">
+              <div class="skills php">60%</div>
+            </div>
+            <p>NodeJS</p>
+            <div class="container-skils">
+              <div class="skills node">80%</div>
+            </div>
+
+            <p>React</p>
+            <div class="container-skils">
+              <div class="skills react">65%</div>
+            </div>
+            <p>Angular</p>
+            <div class="container-skils">
+              <div class="skills angular">65%</div>
+            </div>
+
+            <p>MongoDB</p>
+            <div class="container-skils">
+              <div class="skills mongo">60%</div>
+            </div>
+          </div>
+        </div>
+        <div class="child__skils">
+          <div class="right__skils">
+            <h1>My creative skills & experiences.</h1>
+            <br /><br />
+            <p>
+              I am producing usable and highly scalable web software solutions.
+              I have strong interpersonal skills and proven record of
+              communicating with senior executives and stakeholders. I am
+              punctual and reliable individual ready to go extra mile to ensure
+              performance standards are met. I can also quickly and efficiently
+              join your team using continuous-integration methods and tools such
+              as Git and Agile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>@ design by info@nikolovski.se</footer>
+    <script src="index.js"></script>
+  </body>
+</html>

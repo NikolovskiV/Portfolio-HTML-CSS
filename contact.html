@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Portfolio Web</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="brand"><a href="home.html" id="logo">Portfolio</a></div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skils.html">Skills</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <ul class="mobile-menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skils.html">Skills</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="about">
+        <h2>Contact me</h2>
+        <h3>- get in touch -</h3>
+      </div>
+      <div class="container__contacts">
+        <div class="contact__div">
+          <h3>Vande Nikolovski</h3>
+          <br />
+          <!-- <i class="material-icons">&#xe0c8;</i> -->
+          <p>Kopparvägen 25</p>
+          <p>17672</p>
+          <p>Stockholm</p>
+          <p>Sweden</p>
+        </div>
+        <div class="contact__div">
+          <a href="https://github.com/NikolovskiV" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/vande-nikolovski-054213176/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://twitter.com/SmekiB" target="_blank">Twiter</a>
+          <a href="https://www.facebook.com/vandenikolovski/" target="_blank"
+            >Facebook</a
+          >
+        </div>
+        <div class="contact__div">
+          <p id="email">
+            <!-- <i class="material-icons">&#xe0e1;</i> -->
+            e-mail: info@nikolovski.se
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>@ design by info@nikolovski.se</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
